@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="secondstyle.css">
+    <title>MENU</title>
+    <meta charset="utf-8">
+</head>
+<body style="background-image: url('https://media2.s-nbcnews.com/i/newscms/2020_21/3360926/200522-fine-dining-al-0903_daf245f5cd4ce1aa4040f4262ac91e95.jpg');">
+	
+
+<div>
+  <center>
+	 <h1 class='grey'>Check our menu </h1> 
+  
+    <a id="btn1"> drinks </a>
+    <a id="btn2" > salty</a>
+    <a id="btn3" > sweet </a>
+  </center>
+</div>
+
+<div id="drinks">
+  <details>
+		<summary>coffee </summary>
+		<p><input type="checkbox" value="espresso">Espresso 2.5dt</p>
+		<p><input type="checkbox" value="cappuccino">Cappuccino  &nbsp; 3.5dt</p>
+		<p><input type="checkbox" value="late">Latte  &nbsp; &nbsp; &nbsp;&nbsp; 3.5dt </p>
+		
+	</details>
+	<details>
+		<summary>soda</summary>
+		<p><input type="checkbox" value="coka">Coka   3.8dt</p>
+		<p><input type="checkbox" value="fanta">Fanta   3.8dt </p>
+		<p><input type="checkbox" value="schweeeps">Schweeeps   4dt</p>
+		
+	</details>
+	<details>
+		<summary>smoothy</summary>
+		<p><input type="checkbox" value="strawberry">Strawberry  5.5dt</p>
+		<p><input type="checkbox" value="wood">Wood fruit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.8dt</p>
+		<p><input type="checkbox" value="banane">Banane   5dt</p>
+		
+	</details>
+</div>
+
+<div id="salty">
+	<details>
+		<summary>salad</summary>
+		<p><input type="checkbox" value="caesar">Ceasar salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18dt</p>
+		<p><input type="checkbox" value="pulp">Pulp salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26dt</p>
+		<p><input type="checkbox" value="green">Green salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13dt</p>
+		
+	</details>
+	<details>
+		<summary>pasta</summary>
+		<p><input type="checkbox" value="salmon">Salmon pasta &nbsp;  28dt</p>
+		<p><input type="checkbox" value="cheese">Cheese pasta &nbsp;  25dt</p>
+		<p><input type="checkbox" value="sea">Seafood pasta &nbsp; 35dt</p>
+		
+	</details>
+	<details>
+		<summary>pizza</summary>
+		<p><input type="checkbox" value="tuna">Tuna pizza &nbsp;  8dt</p>
+		<p><input type="checkbox" value="veget">Vegeterian pizza &nbsp;  7.5dt</p>
+		<p><input type="checkbox" value="pcheese">Cheese pizza &nbsp; 12dt</p>
+		
+	</details>
+	<details>
+		<summary>burger</summary>
+		<p><input type="checkbox" value="bveg">Vegeterian burger &nbsp;12dt</p>
+		<p><input type="checkbox" value="bcheese">Cheese burger &nbsp; 15dt</p>
+		<p><input type="checkbox" value="meat">Ground meat burger &nbsp;  18dt</p>
+		
+	</details>
+</div>
+<div id="sweet">
+	<details>
+		<summary>pancake</summary>
+		<p><input type="checkbox" value="nutella1">Nutella pancake &nbsp;7.5dt</p>
+		<p><input type="checkbox" value="caramel1">Caramel pancake &nbsp;  6dt</p>
+		<p><input type="checkbox" value="japanese">japanese pancake &nbsp;  6dt</p>
+		
+	</details>
+	<details>
+		<summary>cheesecake</summary>
+		<p><input type="checkbox" value="nuttella2">Nutella cheesecake &nbsp; 7.5dt</p>
+		<p><input type="checkbox" value="ferero">Ferero cheesecake &nbsp;    9dt</p>
+		<p><input type="checkbox" value="caramel2">Caramel cheesecake &nbsp;   7dt</p>
+		
+	</details>
+	<details>
+		<summary>fruit</summary>
+		<p><input type="checkbox" value="fruitsalad"> Fruit salad &nbsp; 13dt</p>
+	
+	</details>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <div>
+  	<center>
+     <button id="price"> price </button>
+     <button id="but"> your order </button>
+     <button id="another"> Another client </button>
+    </center>
+</div>
+<h2>Total:<span id="revenue"></span></h2>
+<h2><span id="rev"></span></h2>
+</body>
+</html>
